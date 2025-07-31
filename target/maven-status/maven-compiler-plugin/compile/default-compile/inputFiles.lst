@@ -1,3 +1,15 @@
 C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\LoginEjercicio.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\persistencia\RolJpaController.java
 C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\igu\Login.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\igu\LoginAdmin.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\persistencia\exceptions\PreexistingEntityException.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\igu\LoginUser.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\persistencia\UsuarioJpaController.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\igu\CrearUsuario.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\igu\EditarUsuario.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\logica\ControladoraLogica.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\logica\Rol.java
 C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\logica\Usuario.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\persistencia\ControladoraPersistencia.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\persistencia\exceptions\IllegalOrphanException.java
+C:\Users\Martin\Documents\NetBeansProjects\LoginEjercicio\src\main\java\com\mycompany\loginejercicio\persistencia\exceptions\NonexistentEntityException.java

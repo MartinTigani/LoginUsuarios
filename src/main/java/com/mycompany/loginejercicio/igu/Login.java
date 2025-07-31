@@ -157,8 +157,28 @@ public class Login extends javax.swing.JFrame {
         String nombreUsuario = txtUsuario.getText();
         String contraseniaUsuario = txtContrasenia.getText();
         
-        String mensaje = control.validarUsuario(nombreUsuario,contraseniaUsuario);
-        txtResult.setText(mensaje);
+        Usuario user = control.validarUsuario(nombreUsuario,contraseniaUsuario);
+        if(user!=null){
+            String rol = user.getUnRol().getNombreRol();
+            if(rol.equals("Admin")){
+                LoginAdmin pantallaAdmin = new LoginAdmin(control,user);
+                //LoginAdmin pantallaAdmin = new LoginAdmin();
+                pantallaAdmin.setVisible(true);
+                pantallaAdmin.setLocationRelativeTo(null);
+                this.dispose();
+            }
+            else{
+                LoginUser pantallaUser = new LoginUser(control,user);
+                //LoginUser pantallaUser = new LoginUser();
+                pantallaUser.setVisible(true);
+                pantallaUser.setLocationRelativeTo(null);
+                this.dispose();
+            }
+        }
+        else{
+            txtResult.setText("Usuario o contraseña incorrecto");
+        }
+        
     }//GEN-LAST:event_btnLoginActionPerformed
 
 
